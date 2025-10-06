@@ -3,15 +3,15 @@ return {
   opts = {
     inlay_hints = { enabled = false },
     servers = {
-        basedpyright = {
-            settrings = {
-                basedpyright = {
-                    analysis = {
-                        typeCheckingMode = "off",
-                    }
-                }
-            }
-        }
-    }
+      basedpyright = {
+        settings = {
+          basedpyright = {
+            analysis = {
+              typeCheckingMode = "off",
+            },
+          },
+        },
+      },
+    },
   },
 }
