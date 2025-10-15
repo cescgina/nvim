@@ -13,3 +13,7 @@ vim.opt.wrap = true
 vim.opt.autoread = true
 -- Preview substitutions live, as you type!
 vim.o.inccommand = "split"
+
+-- Enable English (US) spelling
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
