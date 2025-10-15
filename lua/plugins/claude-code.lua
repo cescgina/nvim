@@ -23,7 +23,7 @@ return {
   },
   keys = {
     -- which-key group
-    { "<leader>a", group = "ai", icon = "󰧑" },
+    { "<leader>a", group = "ai", icon = "󰧑", desc = "AI" },
     {
       "<leader>ac",
       "<cmd>ClaudeCode<cr>",
