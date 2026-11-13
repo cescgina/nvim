@@ -68,7 +68,7 @@ return {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
     opts = {
-        inlay_hints = { enabled = false },
+      inlay_hints = { enabled = false },
     },
   },
 
@@ -77,7 +77,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-        "bash",
         "html",
         "javascript",
         "json",
@@ -148,7 +147,6 @@ return {
         "shellcheck",
         "basedpyright",
         "gopls",
-        "shfmt",
         "flake8",
       },
     },

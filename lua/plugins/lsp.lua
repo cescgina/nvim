@@ -18,7 +18,7 @@ return {
             lineLength = 79,
             configuration = {
               format = {
-                exclude = { "*watcher*" },
+                exclude = { "*watcher-tempest-plugin*", "*nova*", "*whitebox*", "*watcherclient*" },
               },
               lint = {
                 select = { "E1", "F", "S", "U", "W", "B", "SIM", "C90", "E5", "E2", "E3", "E5", "E7", "E9" },
